@@ -5,7 +5,7 @@
   font-display: swap;
 }
 
-:root{
+:root {
   --red-first-color: #8f0101;
   --red-second-color: #b81515;
 
@@ -22,13 +22,22 @@
 }
 
 /* CSS RESET */
-body, img, h1, p, fieldset, label, input, select, textarea, button {
+body,
+img,
+h1,
+p,
+fieldset,
+label,
+input,
+select,
+textarea,
+button {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-h1{
+h1 {
   font-family: "Montserrat";
   color: var(--red-first-color);
   font-weight: var(--title-weight);
