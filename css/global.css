@@ -13,8 +13,8 @@
   --bg-offwhite: #f5f5f5;
   --bg-black: #000000;
 
-  --text-first-color: #222222;
-  --text-second-color: #ffffff;
+  --text-black: #222222;
+  --text-white: #ffffff;
 
   --title-weight: 700;
   --text-weight: 400;
@@ -39,6 +39,10 @@ button {
 
 h1 {
   font-family: "Montserrat";
-  color: var(--red-first-color);
+  color: var(--text-first-color);
   font-weight: var(--title-weight);
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
 }
