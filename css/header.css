@@ -35,7 +35,12 @@ nav {
   list-style: none;
 }
 
+.links-section li {
+  margin: 16px 0;
+}
+
 .links-section li a {
   color: var(--text-white);
   text-decoration: none;
+  margin: 16px;
 }
